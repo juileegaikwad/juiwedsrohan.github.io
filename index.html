@@ -35,7 +35,7 @@
             <div class="swiper-slide slide5"></div>
         </div>
         <!-- Add Pagination -->
-        <div class="swiper-pagination swiper-pagination-v"></div>
+        <!-- <div class="swiper-pagination swiper-pagination-v"></div> -->
     </div>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -46,6 +46,9 @@
             direction: 'vertical',
             spaceBetween: 50,
             effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
             pagination: {
                 el: '.swiper-pagination-v',
                 clickable: true,
@@ -54,10 +57,10 @@
                 enabled: true,
                 onlyInViewport: false,
             },
-            // autoplay: {
-            //     delay: 4000,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
             // breakpoints: {
             //     640: {
             //         slidesPerView: 1,

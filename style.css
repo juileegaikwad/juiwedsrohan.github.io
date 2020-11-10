@@ -44,7 +44,7 @@ body {
 }
 
 .slide1 {
-    background-image: url(./images/11.jpg);
+    background-image: url(./images/12.png);
     background-position: center;
     background-size: cover;
     background-position-y: bottom;
@@ -59,9 +59,10 @@ body {
 }
 
 .slide3 {
-    background-image: url(./images/13.jpg);
+    background-image: url(./images/13.png);
     background-position: center;
     background-size: cover;
+    background-position-y: -300px;
 }
 
 .slide4 {
@@ -71,10 +72,10 @@ body {
 }
 
 .slide5 {
-    background-image: url(./images/13.jpg);
+    background-image: url(./images/9.png);
     background-position: center;
     background-size: cover;
-    background-position-y: -310px;
+    background-position-y: 24%;
     background-repeat: no-repeat;
 }
 
@@ -138,6 +139,9 @@ body {
     }
     .address p {
         font-size: 12px;
+    }
+    .slide3{
+        background-position-y: center !important;
     }
     /* .slide1{
         background-position-y: -50px;

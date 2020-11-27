@@ -89,20 +89,20 @@ body {
     background-image: url(./images/black.jpg);
     background-position: center;
     background-size: cover;
-    background-position-y: bottom;
+    /* background-position-y: bottom; */
 }
 .slide11 {
-    background-image: url(./images/DSC_4624.NEF.jpg);
+    background-image: url(./images/2.jpg);
     background-position: center;
     background-size: cover;
-    background-position-y: 5%;
+    /* background-position-y: 5%; */
 }
 .slide9 {
     background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/DSC_4624.NEF.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     object-fit: scale-down;
-    background-position-y: 22%;
+    background-position-y: 25%;
 }
 .slide10 {
     background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/DSC_4612.NEF.jpg);

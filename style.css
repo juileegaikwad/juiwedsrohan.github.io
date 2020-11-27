@@ -58,15 +58,14 @@ body {
     /* background-position-y: bottom; */
 }
 
-.slide3 {
-    background-image: linear-gradient(-78deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/PicsArt_11-25-06.05.39.jpg);
-    background-position: center;
-    background-size: cover;
-    background-position-y: -300px;
-}
-
 .slide4 {
     background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.slide6 {
+    background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -79,24 +78,27 @@ body {
     background-repeat: no-repeat;
 }
 
-.slide6 {
-    background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/4.jpg);
+.slide3 {
+    background-image: linear-gradient(-78deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/PicsArt_11-25-06.05.39.jpg);
     background-position: center;
     background-size: cover;
+    background-position-y: -300px;
 }
 
-.slide7 {
-    background-image: url(./images/black.jpg);
+.slide10 {
+    background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/DSC_4612.NEF.jpg);
     background-position: center;
     background-size: cover;
-    /* background-position-y: bottom; */
+    background-position-y: 45%;
 }
+
 .slide11 {
     background-image: url(./images/2.jpg);
     background-position: center;
     background-size: cover;
     /* background-position-y: 5%; */
 }
+
 .slide9 {
     background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/DSC_4624.NEF.jpg);
     background-position: center;
@@ -104,11 +106,12 @@ body {
     object-fit: scale-down;
     background-position-y: 25%;
 }
-.slide10 {
-    background-image: linear-gradient(0deg, rgb(0 43 255 / 20%), rgb(253 25 25 / 10%)), url(./images/DSC_4612.NEF.jpg);
+
+.slide7 {
+    background-image: url(./images/black.jpg);
     background-position: center;
     background-size: cover;
-    background-position-y: 45%;
+    /* background-position-y: bottom; */
 }
 
 #timer {
